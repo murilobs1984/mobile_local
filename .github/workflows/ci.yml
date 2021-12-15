@@ -26,4 +26,4 @@ jobs:
       - name: Run end-to-end tests on desktop viewport 🧪
         uses: cypress-io/github-action@v2
         with:
-          command: npm run
+          command: npm run test:desktop
