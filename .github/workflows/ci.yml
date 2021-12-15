@@ -18,7 +18,7 @@ jobs:
   cypress-tests-desktop:
     needs: eslint
     runs-on: ubuntu-latest
-    container: cypress/browsers:chrome96
+    container: cypress/browsers
     steps:
       - name: Checkout
         uses: actions/checkout@v2
