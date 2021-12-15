@@ -23,7 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Run end-to-end tests on desktop viewport 🧪
+      - name: Run teste do Murilo 🧪
         uses: cypress-io/github-action@v2
         with:
-          command: npm run test:desktop
+          command: npx test
