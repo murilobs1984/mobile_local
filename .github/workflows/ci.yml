@@ -26,4 +26,4 @@ jobs:
       - name: Run teste do Murilo 🧪
         uses: cypress-io/github-action@v2
         with:
-          command: npx cypress run
+          command: npm test
